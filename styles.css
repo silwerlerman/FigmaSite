@@ -6,14 +6,43 @@
     font-family: 'Open-Sans-bold';
     src: url(fonts/opensans.ttf);
 }
-.container-logo-text{
+.container-nav-buttons,
+.container-logo-text,
+.container-nav-bar{
     display: flex;
     flex-direction: row;
 }
+.bottom-border{
+    border-bottom: 1px solid #E6E6E6;
+}
+.nav-bar-flex-between{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 250px;
+}
+.nav-panel-text{
+    color: #48555B;
+    font-family: Open-Sans-bold;
+    font-size: 12px;
+    letter-spacing: 1.09091px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding-left: 5px;
+	padding-right: 20px;
+}
+.text-selected{
+    color: #00A4E5;
+    font-weight: bold;
+}
 .logo-text{
-    color: #FFFFFF;
-    font-family:  Bebas-neue-bold;
+    font-family: Bebas-neue-bold;
     font-size: 30px;
+}
+.logo-text-white{
+    color: #FFFFFF;
+}
+.logo-text-black{
+    color: #000000;
 }
 .title-color{
     color: #DADADA;
@@ -60,4 +89,7 @@
     line-height: 15px;
     letter-spacing: 3.7px;
     text-transform: uppercase; 
+}
+nav{
+	list-style: none;
 }
