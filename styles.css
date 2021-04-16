@@ -166,6 +166,9 @@
 .logo-text-black{
     color: #000000;
 }
+.margin-l-75{
+    margin-left: 75px;
+}
 .margin-lr-250{
     margin:0px 250px;
 }
@@ -210,6 +213,27 @@
     margin-left: 1px;
     height: 0;
     width: 0;
+}
+.search{
+    align-items: center;
+    background-color: #171819;
+    height: 100px;
+    justify-content: center;
+}
+.search-input{
+    height: 40px;
+    width: 250px;
+    color: #48555B;
+}
+.search-title{
+    color: #FFFFFF;
+    font-family: Open-Sans-bold;
+    font-size: 22px;
+    margin-bottom: 35px;
+    letter-spacing: 0.846154px;
+    line-height: 30px;
+    text-align: center;
+    width: 350px;
 }
 .services-title{
     color: #48555B;
