@@ -4,8 +4,8 @@
     </head>
     <body>
         <!--Верхняя панель-->
-        <div class="top-container">
-            <div class="container-logo-text">
+        <div class="flex-column top-container">
+            <div class="flex-row">
                 <p class="logo-text logo-text-white">Konstru</p>
                 <p id="triangle-left"></p>
                 <p class="logo-text logo-text-white">T</p>
@@ -19,19 +19,77 @@
             </div>
         </div>
         <!--Навигационная панель-->
-        <div class="container-nav-bar nav-bar-flex-between bottom-border">
-            <div class="container-logo-text">
+        <div class="flex-row flex-between nav-panel bottom-border">
+            <div class="flex-row">
                 <p class="logo-text logo-text-black">Konstru</p>
                 <p id="triangle-left"></p>
                 <p class="logo-text logo-text-black">T</p>
             </div>
-            <nav class="container-nav-buttons">
+            <nav class="flex-row">
                 <li><a class="nav-panel-text">Home</a></li>
                 <li><a class="nav-panel-text text-selected">About</a></li>
                 <li><a class="nav-panel-text">Services</a></li>
                 <li><a class="nav-panel-text">Work</a></li>
                 <li><a class="nav-panel-text">Contact</a></li>
             </nav>
+        </div>
+        <!--Основная часть-->
+        <!--About-->
+        <div class="flex-column container-about">
+            <p class="about-title">Our story</p>
+            <hr class="line-blue"/>
+            <div class="flex-row flex-between">
+                <div class="about-area-2-left">
+                    <p class="about-txt about-txt-bold">Founded in 2011 by John Mathew Smith, <span class ="about-text1 text-selected">Konstruct</span> has become the number one construction management firm</p>
+                    <p class="about-txt about-txt-regular">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
+                <div class="about-area-2-right">
+                    <div class="about-picture about-plan">
+                        <div class="about-text-margin">We plan</div>
+                    </div>
+                    <div class="about-picture about-manage">
+                        <div class="about-text-margin">We manage</div>
+                    </div>
+                    <div class="about-picture about-build">
+                        <div class="about-text-margin">We build</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Services-->
+        <div class="flex-column container-services padding-lr-250">
+            <div class="flex-row flex-between">
+                <div class="flex-column">
+                    <p class="services-title">Our capabilities</p>
+                    <hr class="line-blue"/>
+                </div>
+                <div>
+                    <p class="about-txt services-txt-regular">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>  
+                <button class="button-all-serv">All services</button>         
+            </div>
+            <div class="flex-row flex-between">
+                <div class="border">
+                    <image src="images/project.png" width="65" height="75"></image>
+                    <p class="services-txt-bold2">PROJECT AND CONSTRUCTION MANAGEMENT</p>
+                    <p class="services-txt-regular2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
+                <div class="border">
+                    <image src="images/structure.png" width="65" height="75"></image>
+                    <p class="services-txt-bold2">STRUCTURE AUDIT AND MAINTENANCE</p>
+                    <p class="services-txt-regular2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
+                <div class="border">
+                    <image src="images/factory.png" width="65" height="75"></image>
+                    <p class="services-txt-bold2">FACTORY CONSTRUCTION AND MODELING</p>
+                    <p class="services-txt-regular2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
+            </div>
+        </div>
+        <!--Get-in-touch-->
+        <div class="flex-column get-in-touch">
+            <p class="get-in-touch-title">Want to build something amazing?</p>
+            <button class="button-all-serv margin-b-50">Get in touch</button>   
         </div>
     </body>
 </html>
